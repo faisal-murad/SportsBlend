@@ -1,0 +1,109 @@
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(../PoppinsFonts/Poppins-SemiBold.ttf);
+}
+
+.mpBG
+{
+  background-color: rgb(30, 30, 30);
+  color: wheat;
+  height: auto;
+  width: 100%;
+  text-align:center;
+}
+
+.categories
+{
+  font-family: 'Poppins';
+  font-size: 6rem;
+}
+
+.mpBG p{
+  
+  text-align:center;
+  font-size: 30px;
+  width: 70%;
+  margin: auto;
+}
+
+.cardsContainer
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3%;
+  height: auto;
+  width: 80%;
+  margin: auto;
+}
+
+.card
+{
+  overflow: hidden;
+  /* margin: 2%; */
+  height: 500px;
+  width: 450px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img
+{
+  height: 300px;
+  width: auto;
+
+}
+/* 
+.card:hover
+{
+  bac
+} */
+
+.overlaycard
+{
+  display: flex;
+  opacity: 0%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* z-index: 100; */
+  background-color: rgba(36, 36, 36, 0.53);
+  height: 500px;
+  width: 450px;
+  border-radius: 20px;
+  margin: auto auto;
+  transition: opacity 0.3s ease;
+}
+
+
+.overlaycard:hover
+{
+  opacity: 100%;
+  display: flex;
+  backdrop-filter: blur(5px);
+}
+
+/* //////////////// */
+
+.footer
+{
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  width: 100%;
+  display: flex;
+
+}
+
+.footercontent
+{
+  width: 50%;
+
+}
+
+.footercontent h3
+{
+  font-size: 3rem;
+}
