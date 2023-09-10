@@ -96,10 +96,10 @@ function ProductCustomize(props) {
                             <div className={styles.cardSuperDiv}>
                                 <div className={styles.card} style={{ backgroundImage: `url(${props.cardImage})` }}>
                                     <div className={styles.playerName}>
-                                        <h1>{name}</h1>
+                                        <h1 style={{userSelect:'none'}}>{name}</h1>
                                     </div>
                                     <div className={styles.playerNum}>
-                                        <h1>{num}</h1>
+                                        <h1 style={{userSelect:'none'}}>{num}</h1>
                                     </div>
                                 </div>
                             </div>
