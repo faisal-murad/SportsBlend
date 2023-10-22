@@ -1,0 +1,636 @@
+@font-face {
+    font-family: 'PoppinsLight';
+    src: url('../../../PoppinsFonts/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsExtraLight';
+    src: url('../../../PoppinsFonts/Poppins-ExtraLight.ttf');
+}
+/* 
+* {
+
+    font-family: 'Poppins';
+} */
+
+
+.mainDiv {
+    height: auto;
+    width: 100%;
+    margin: 0%;
+    padding-top: 5%;
+
+}
+
+html {
+    font-family: 'Poppins';
+    font: url('../../../PoppinsFonts/Poppins-ExtraBold.ttf');
+}
+
+h1,
+h4 {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins';
+    color: #fff;
+    /* text-align: center; */
+}
+
+.mainDivContent {
+    height: auto;
+    width: 70%;
+    margin: auto;
+    padding: 0%;
+    /* background-color: red; */
+
+}
+
+
+.sportTitle {
+    font-size: 1.5rem;
+}
+
+.Hero {
+    font-size: 3rem;
+    /* margin: 0 5%; */
+}
+
+
+.navbar {
+    width: 100%;
+    height: 5rem;
+    background-color: grey;
+
+}
+
+
+
+.card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+
+.custSection {
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+
+
+.cardsContainer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.shirtOptions {
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* margin-top: 2%; */
+}
+
+.shirtHeader {
+    height: 20%;
+    text-align: start; 
+}
+
+
+.headH1 {
+    height: 65%;
+    font-size: 0.3rem;
+}
+
+.headH {
+    font-family: 'PoppinsExtraLight';
+    font-weight: 100;
+    font-size: 1.5rem;
+    display: inline;
+    margin-left: 2%;
+}
+
+.headDel {
+    display: inline;
+    font-size: 1.5rem;
+    font-family: 'PoppinsExtraLight';
+}
+
+.shirtDetails {
+    width: 100%;
+    padding-top: 7%; 
+    /* background-color: red; */
+}
+
+.shirtDetails h1 {
+    font-size: 3rem;
+    margin: 0%;
+}
+
+.shirtDetails h2 {
+    margin: 0%;
+    font-size: 2rem;
+}
+
+.shirtSize {
+    /* background-color: red; */
+    height: 105px;
+    width: 100%;
+    text-align: start;
+    /* margin-top: 18%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.shirtSize h3 {
+    margin: 0%;
+    font-weight: 400;
+    width: 100%;
+}
+
+.shirtSize select {
+    appearance: none;
+    font-size: small;
+    font-family: 'PoppinsLight';
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+    padding: 2%;
+    cursor: pointer;
+    color: #fff;
+}
+
+.shirtSize select option
+{
+    color: black;
+}
+
+.shirtSize select option:checked{
+    background-color: rgb(60, 127, 226);
+}
+.shirtSize option {
+
+    font-family: 'PoppinsLight';
+}
+
+
+.shirtAdd {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(35, 35, 35);
+
+}
+
+.shirtAdd p {
+
+    width: 70px;
+    font-weight: 100;
+    font-size: 1.2rem;
+    font-family: 'PoppinsLight';
+}
+
+.shirtAdd button {
+    color:#fff;
+    font-family: 'PoppinsLight';
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+
+.shirtAddToCart {
+    height: 50px;
+    width: 170px;
+    border-radius: 30px;
+    margin-left: 3%;
+    background-color: rgb(35, 35, 35);
+    color: #fff;
+}
+
+.shirtDelivery {
+    background-color: rgba(72, 255, 0, 0.138);
+    height: 40px;
+    width: 100%;
+    border: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.shirtAddAndCart {
+    display: flex;
+
+}
+
+.shirtDelivery h1 {
+
+    font-family: 'PoppinsExtraLight';
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+
+.productDetails {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.Details {
+    border-radius: 3px;
+    background-color: rgb(35, 35, 35);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    border-bottom-width: 50%;
+}
+
+.Details h1 {
+    font-family: 'PoppinsExtraLight';
+    font-size: 1rem;
+    text-align: start;
+    width: 93%;
+    margin-left: 2%;
+}
+
+.detailsExtended {
+    padding: 5px;
+    height: auto;
+}
+
+.detailsExtended p {
+    text-align: start;
+    font-size: 1rem;
+    font-family: 'PoppinsExtraLight';
+    width: 100%;
+}
+
+.nameDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 21%;
+    width: auto;   
+}
+
+.nameDiv h3
+{
+    /* margin-bottom: 0%; */
+    margin: 0%;
+   margin-bottom: 2%;
+
+    /* background-color: red; */
+}
+
+.inputName {
+    font-family: 'PoppinsLight';
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    margin: 5px;
+    margin-left: 5%;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.cardMainDiv {
+    display: flex;
+    margin: 2%;
+    margin-left: 0%;
+
+}
+
+.cardSuperDiv {
+    /* width: 100%; */
+    width: auto;
+}
+
+.changeName {
+    height: 48px;
+    width: 160px;
+    background-color: white;
+    color: black;
+}
+
+
+.playerName {
+    font-size: 1rem;
+    width: 50%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: auto;
+}
+
+.playerName h1 {
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 2%;
+    height: 30%;
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+}
+
+.playerNum {
+    width: 50%;
+    height: 70%;
+    font-size: 4.9rem;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    right: 5px; 
+}
+
+
+
+@media (min-width:1600px) {
+
+    .sportTitle {
+        font-size: 3rem;
+    }
+
+    .Hero {
+        font-size: 7rem;
+    }
+}
+
+@media (min-width: 1079px) {
+
+    .inputName {
+        width: 100%;
+    }
+} 
+
+@media (max-width: 1078px) {
+
+    .Hero {
+        width: 100%;
+    }
+
+    .card {
+        height: 500px;
+        width: 400px;
+    }
+
+    .cardMainDiv {
+        display: block;
+
+    }
+
+
+    .custSection {
+        display: block;
+    }
+
+    .cardSuperDiv {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .shirtOptions {
+        display: block;
+        width: 100%;
+    }
+
+    .shirtDetails h1 {
+        font-size: 2rem;
+    }
+
+    .Hero {
+        font-size: 2rem;
+        margin: 0% 0%;
+
+    }
+
+    .playerName {
+        font-size: 1.2rem;
+    }
+
+    .playerNum {
+        font-size: 5rem;
+    }
+
+    .shirtDelivery h1 {
+        font-size: 0.7rem;
+    }
+
+    .custSection {
+        display: block;
+    }
+
+    .shirtOptions {
+        display: block;
+
+    }
+
+    .shirtSize select {
+        height: 50px;
+        margin: 2% 0;
+    }
+
+    .shirtDelivery {
+        margin: 2% 0;
+    }
+
+    .nameDiv {
+        margin: 2% 0;
+
+    }
+
+    .mainDivContent
+    { 
+        padding-top: 5%;
+    }
+}
+
+@media (max-width:832px) {
+
+    .nameDiv {
+
+        display: block;
+
+    }
+
+    .shirtSize {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .shirtAddAndCart {
+        justify-content: space-around;
+    }
+
+    .headH1{
+        padding-left: 10%;
+    }
+
+
+    .shirtHeader
+    {
+        text-align: center;
+    }
+}
+
+
+@media (max-width:768px) {
+    
+    .sportTitle {
+        font-size: 1.1rem;
+    }
+
+    .Hero {
+        font-size: 3rem;
+    }
+    .mainDivContent
+    { 
+        padding-top: 10%;
+    }
+}
+
+@media (max-width:735px) {
+    .headH1 {
+        font-size: 0.5rem;
+    }
+
+    .headH2 {
+        font-size: 12px;
+    }
+
+}
+@media (max-width: 682px) {
+
+    .Hero {
+        width: 100%;
+    }
+
+    .card {
+        height: 400px;
+        width: 300px;
+    }
+
+    .cardMainDiv {
+        display: block;
+
+    }
+
+    .cardSuperDiv {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .shirtOptions {
+        display: block;
+        width: 100%;
+    }
+
+    .shirtDetails h1 {
+        font-size: 1.5rem;
+    }
+
+    .shirtDetails p {
+        font-size: small;
+    }
+
+    .Hero {
+        font-size: 1.5rem;
+        margin: 0% 0%;
+    }
+
+
+    .changeName {
+        height: 48px;
+        width: 160px;
+        background-color: white;
+        color: black;
+    }
+
+
+    .playerName {
+        font-size: 0.9rem;
+    }
+
+    .playerNum {
+        position: relative;
+        top: 10px;
+        font-size: 3.7rem;
+    }
+
+    .shirtDelivery h1 {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (max-width:429px) {
+
+    .playerNum {
+        font-size: 3.2rem;
+        width: 60%;
+    }
+    .playerName{
+        font-size: 0.7rem;
+    }
+    .mainDiv {
+        padding-top: 20%;
+    }  
+    .card{
+        background-size: 320px;
+        height: 320px;
+    }
+ 
+ 
+    .cardSuperDiv{
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        border-radius: 20px;
+    }
+ 
+}
+
+@media (max-width:355px) {
+
+    .playerNum {
+        width: 65%;
+    }
+}
+
+@media (max-width:329px) {
+
+    .playerNum {
+        width: 70%;
+    }
+}
+
+@media (max-width:297px) {
+
+    .playerNum {
+        width: 80%;
+    }
+}

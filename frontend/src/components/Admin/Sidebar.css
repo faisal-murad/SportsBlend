@@ -1,0 +1,81 @@
+/* Default styles for screens larger than 768px */
+.bar-root {
+   padding-top: 5%;
+   width: 25%;
+   background: rgb(26, 24, 24);
+   margin-top: -2rem;
+   height: 105vh;
+   line-height: 2.5;
+}
+
+.bar-root h2 {
+   color: red;
+   margin-top: 2rem;
+   letter-spacing: .5px;
+   text-align: left;
+   font-size: 2rem;
+   font-weight: normal;
+   line-height: 1;
+   margin-left: 10%;
+}
+
+.bar-root h2 span {
+   font-size: 2rem;
+   font-weight: bold;
+   color: white;
+}
+
+.bar-menu {
+   list-style-type: none;
+   float: left;
+   text-align: left;
+}
+
+.bar-menu li .bar-link {
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   color: #fff;
+   font-size: 1rem;
+}
+
+.bar-menu li .bar-link:hover {
+   color: red;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 1rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
+/* Responsive styles for screens smaller than 768px */
+@media (max-width: 768px) {
+   .bar-root {
+       width: 100%;
+       padding: 2% 5%;
+       text-align: center;
+   }
+
+   .bar-root h2 {
+       margin-left: 0;
+       font-size: 1.5rem;
+   }
+
+   .bar-menu {
+       float: none;
+       text-align: center;
+       margin-top: 2rem;
+   }
+
+   .bar-menu li {
+       margin: 0;
+   }
+
+   .bar-menu li .bar-link {
+       display: block;
+       margin: 1rem 0;
+       font-size: 1.2rem;
+   }
+}

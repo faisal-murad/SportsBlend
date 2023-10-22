@@ -1,0 +1,164 @@
+html
+{
+    background-color: black;
+} 
+.Main-div-C{
+    background-color: rgb(43,43,43);
+    /* margin : 40px 50px; */
+    padding : 40px 40px;
+    padding-top: 10%; 
+    /* height : 800px; */
+    
+  }
+  
+  
+  .Inner-C{
+    margin : 0px 20px;
+    padding: 50px;
+    display: flex; 
+  }
+  
+  .Inner1-C{
+    background-color: rgb(18,18,18);
+    /* height : 600px; */
+    width : 60%;
+  }
+  .Inner2-C{
+    /* background-color:rgb(27,29,31); */
+    /* background-color: red; */
+
+    /* height : 600px; */
+    width : 40%;
+  }
+  .heading-C{
+    color: rgb(240,222,193);
+    margin : 50px 30px;
+    margin-bottom: 0px;
+    
+  }
+  .carts-C {
+    font-size :xx-large;
+    font-weight: bold;
+  }
+  
+  .divider-C{
+    width: 95%;
+    background-color: white;
+    height: 0.1px;
+    display: inline-block;
+    opacity: 0.3;
+  }
+  
+  .border-C {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 30px;
+    color:rgb(240,222,193);
+  }
+  
+  .border-C>h3{ 
+    margin: auto; 
+  }
+  
+  .divider2-C{
+    margin-left: 30px;
+    width: 86%;
+    background-color: white;
+    height: 0.1px;
+    display: inline-block;
+    opacity: 0.3;
+  }
+  .data-C{
+  
+    /* border: 2px solid white; */
+    margin-top: 40px;
+    display: flex;
+  }
+  .pic-C{
+    height:150px;
+    width: 150px;
+    /* border : 1px solid green; */
+    text-decoration: wavy;
+    margin-left: 4%;
+    /* background-image: url('../../assets/shirtFront.jpg'); */
+  }
+
+  .pic-C img
+  {
+    height:150px;
+    /* width: 150px; */
+    
+  }
+  .quantityDiv-C{
+    margin-top: 60px;
+    width : 40px;
+    height : 30px;
+    margin-left: 10%; 
+    color: white;
+    font-size: large;
+  }
+
+  .proDetail-C
+  { 
+    margin-left: 10%;
+  }
+  .total-C{
+    margin-top: 70px;
+    margin-left: 80px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+  }
+  .in2-h-C{
+    color:rgb(240,222,193);
+    margin : 20px 30px;
+  }
+  .in2-p-C{
+    display: flex;
+    color : white;
+  }
+
+  .in2-p-C>span
+  {
+    color: #fff;
+  }
+
+  .shipping-C {
+    display: flex;
+    color : white;
+  }
+  .ship-C{
+    display: flex;
+    color : white;
+    flex-direction: column;
+    margin-left : 120px;
+  }
+.ship-C>span
+{
+  color: #fff;
+}
+
+  .grand-C {
+    display: flex;
+    color : white;
+  }
+  .btn-C{
+    margin-top: 30px;
+  
+  }
+  .button-C{
+    margin-left : 20px;
+    width : 90%;
+    height : 50px;
+    color : rgb(15, 132, 25);
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 2px solid rgb(15, 132, 25);
+  }
+  .button-C:hover {
+    color : white;
+    background-color: rgb(15, 132, 25);
+    cursor: pointer;
+  }
